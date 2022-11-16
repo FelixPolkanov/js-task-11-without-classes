@@ -1,0 +1,91 @@
+body {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.5;
+    color: #2a2a2a;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    min-width: 180px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.submit_button {
+    cursor: pointer;
+    border: 1px, #212121;
+    width: 110px;
+    height: 30px;
+    background-color: #86cff4;
+    color: #212121;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.load-more {
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px, #212121;
+    width: 120px;
+    height: 40px;
+    background-color: #86cff4;
+    color: #212121;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 24px;
+    background-color: rgb(104, 89, 89);
+}
+
+input {
+    margin-right: 10px;
+    height: 30px;
+}
+
+
+.load-more {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: calc(100vw - 80px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+}
+
+.info-item {
+    text-align: center;
+    padding-left: 11px;
+}
+
+.info {
+    display: flex;
+
+}
+
+b {
+    display: flex;
+}
